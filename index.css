@@ -55,31 +55,32 @@ div.countDownArea {
 h3 {
   color: var(--purple);
   font-weight: 800;
-  font-size: 1.7em;
+  font-size: 1.4em;
   margin: 0px;
 }
 
-span {
+div.countDown .menu {
   color: var(--text-color);
-  font-size: 0.75em;
+  font-size: 0.8em;
 }
 
-div.legendOfCountDown {
-  display: flex;
+div.countDown {
+  display: grid;
   width: 100%;
-  justify-content: space-evenly;
+  grid-template: 1fr 3fr / 2fr 1fr 2fr 1fr 2fr 1fr 2fr ;
+  gap: 10px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 p {
   color: var(--text-color);
-  font-size: 7pt;
+  font-size: 0.7em;
   text-align: center;
 }
 
-div.countDown {
-  width: 100%;
-  text-align: center;
-  justify-content: space-evenly;
+div.countDown span {
+  font-size: 1.6em;
 }
 
 button {
