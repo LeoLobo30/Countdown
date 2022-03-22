@@ -1,0 +1,34 @@
+body {
+  margin: 0px;
+}
+
+svg.top {
+  width: 100%;
+  height: max-content;
+  background-color: black;
+}
+
+svg.bottom {
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  height: max-content;
+  background-color: aqua;
+}
+
+svg .rocket {
+  width: max-content;
+  height: max-content;
+  padding: 100px;
+}
+
+div .splitArea {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+div .countDown {
+  width: 100%;
+  height: 100%;
+}
