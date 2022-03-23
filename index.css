@@ -1,7 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
+:root {
+  --black: #4d4c59;
+  --purple: #6c63ff;
+  --light-grey: #c8c8c8;
+  --text-color: #9c9ab6;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
 body {
   margin: 0px;
+}
+
+h3 {
+  color: var(--purple);
+  font-weight: 800;
+  font-size: 1.4em;
+  margin: 0px;
+  width: 100%;
+  text-align: center;
 }
 
 svg.top {
@@ -40,27 +61,6 @@ div.countDownArea {
   justify-content: center;
 }
 
-* {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-}
-
-:root {
-  --black: #4d4c59;
-  --purple: #6c63ff;
-  --light-grey: #c8c8c8;
-  --text-color: #9c9ab6;
-}
-
-h3 {
-  color: var(--purple);
-  font-weight: 800;
-  font-size: 1.4em;
-  margin: 0px;
-  width: 100%;
-  text-align: center;
-}
-
 div.countDown .menu {
   color: var(--text-color);
   font-size: 0.8em;
@@ -69,20 +69,20 @@ div.countDown .menu {
 div.countDown {
   display: grid;
   width: 100%;
-  grid-template: 1fr 3fr / 2fr 1fr 2fr 1fr 2fr 1fr 2fr ;
+  grid-template: 1fr 3fr / 2fr 1fr 2fr 1fr 2fr 1fr 2fr;
   gap: 10px;
   text-align: center;
   margin-top: 20px;
+}
+
+div.countDown span {
+  font-size: 1.6em;
 }
 
 p {
   color: var(--text-color);
   font-size: 0.7em;
   text-align: center;
-}
-
-div.countDown span {
-  font-size: 1.6em;
 }
 
 button {
